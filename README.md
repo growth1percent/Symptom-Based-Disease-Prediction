@@ -69,9 +69,9 @@
 
 대신 프로젝트에는 다음 자료를 제공합니다.
 
+* Google Colab Notebook
+* TEST dataset
 * 모델 구현 코드
-* Google Colab 실험 노트북
-* 클러스터링 과정
 * 모델 평가 코드
 
 ---
