@@ -48,13 +48,13 @@
 
 ```text
 .
-├── notebook/
-│   └── Task2_최종ndcg코드.ipynb
-├── train.py
-├── predict.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── notebooks/
+│   └── DiseasePredictionModel_NDCG10.ipynb
+│   └── DiseasePredictionModel_NDCG5.ipynb
+├── dataset/
+│   └── Task1.csv
+│   └── Task2.csv
+└── README.md
 ```
 
 ---
