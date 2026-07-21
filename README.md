@@ -33,7 +33,7 @@
 
 | 분야                 | 기술            |
 | ------------------ | ------------- |
-| 개발 언어           | Python        |
+| 언어               | Python        |
 | Data Analysis      | Pandas, NumPy |
 | Machine Learning   | Scikit-learn  |
 | Feature Extraction | TF-IDF        |
