@@ -33,12 +33,12 @@
 
 | 분야                 | 기술            |
 | ------------------ | ------------- |
-| Language           | Python        |
+| 개발 언어           | Python        |
 | Data Analysis      | Pandas, NumPy |
 | Machine Learning   | Scikit-learn  |
 | Feature Extraction | TF-IDF        |
 | Clustering         | K-Means       |
-| Development        | Google Colab  |
+| 개발 환경           | Google Colab  |
 
 ---
 
