@@ -95,7 +95,7 @@
 
 </br>
 
-### 2. TF-IDF 특징 추출
+### 2. 코사인 유사도 기법 적용 및 TF-IDF 특징 추출
 
 <img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_7" src="https://github.com/user-attachments/assets/5a2a016a-45d2-4555-b241-9323908194a3" />
 
