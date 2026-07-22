@@ -96,6 +96,8 @@
 </br>
 
 ### 2. TF-IDF 특징 추출
+<img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_7" src="https://github.com/user-attachments/assets/5a2a016a-45d2-4555-b241-9323908194a3" />
+
 
 증상 텍스트를 TF-IDF 방식으로 벡터화하여 질병을 구분하는 핵심 증상에 높은 가중치를 부여하였습니다.
 
@@ -116,11 +118,13 @@ TF-IDF 벡터를 기반으로 K-Means 클러스터링을 수행하여 유사한 
 클러스터링 성능을 향상시키기 위해 **Elbow Method**와 **Silhouette Score**를 함께 활용하여 최적의 군집 개수를 분석하였습니다.
 
 #### 엘보우 기법 (Elbow Method)
+<img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_6" src="https://github.com/user-attachments/assets/702d6212-1632-4531-b543-ed18e072147a" />
 
 * 군집 내 오차 제곱합(SSE)의 감소율을 분석
 * Elbow Point가 **6개**에서 나타나 최적 군집 개수 후보로 선정
 
 #### 실루엣 계수 (Silhouette Score)
+<img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_5" src="https://github.com/user-attachments/assets/45108a45-f6d3-407e-840a-a4f2b125b459" />
 
 * 군집 간 분리도와 응집도를 평가
 * 가장 높은 실루엣 계수는 **88개의 군집**에서 나타남
@@ -155,6 +159,8 @@ Disease Prediction
 본 모델의 예측 성능은 **NDCG (Normalized Discounted Cumulative Gain)** 지표를 활용하여 평가하였습니다. NDCG를 통해 **예측된 관련 질병 후보의 순위가 실제 질병과 얼마나 일치하는지**를 측정하여, 단순 정확도뿐만 아니라 **질병 후보 순위의 품질**까지 함께 평가하였습니다.
 
 ### 평가 결과
+
+<img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_10" src="https://github.com/user-attachments/assets/90bfe1d1-1512-427a-b2a3-1d3345aad629" />
 
 | 지표 (Metric) | 점수 (Score) |
 | :--- | :---: |
