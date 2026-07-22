@@ -97,10 +97,9 @@
 
 ### 2. TF-IDF 특징 추출
 
-<img width="4000" height="2250" alt="분석잘하조_중간발표_28" src="https://github.com/user-attachments/assets/42bc70ac-a7ee-497a-a91c-524eb796d864" />
-
 <img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_7" src="https://github.com/user-attachments/assets/5a2a016a-45d2-4555-b241-9323908194a3" />
 
+<img width="4000" height="2250" alt="분석잘하조_중간발표_28" src="https://github.com/user-attachments/assets/42bc70ac-a7ee-497a-a91c-524eb796d864" />
 
 증상 텍스트를 TF-IDF 방식으로 벡터화하여 질병을 구분하는 핵심 증상에 높은 가중치를 부여하였습니다.
 
