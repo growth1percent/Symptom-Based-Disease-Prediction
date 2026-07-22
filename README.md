@@ -97,11 +97,6 @@
 
 ### 2. TF-IDF 특징 추출
 
-<img width="4000" height="2250" alt="5팀_분석잘하조_최종발표자료_7" src="https://github.com/user-attachments/assets/5a2a016a-45d2-4555-b241-9323908194a3" />
-
-<img width="4000" height="2250" alt="분석잘하조_중간발표_28" src="https://github.com/user-attachments/assets/42bc70ac-a7ee-497a-a91c-524eb796d864" />
-
-
 텍스트 형태의 증상 데이터를 머신러닝 모델이 처리할 수 있도록 CountVectorizer와 TF-IDF를 활용하여 벡터화하였습니다.
 
 **CountVectorizer**는 각 증상의 출현 빈도를 기반으로 특징을 생성하지만, 데이터 전반에서 자주 등장하는 증상이 질병을 구분하는 핵심 특징보다 높은 영향력을 가질 수 있다는 한계가 있었습니다.
@@ -114,12 +109,16 @@
 
 ### 3. 코사인 유사도 계산 및 K-Means 클러스터링
 
-<img width="4000" height="2250" alt="분석잘하조_중간발표_29" src="https://github.com/user-attachments/assets/f125115c-25d2-4467-af50-1fa7b8eef526" />
+<img width="4000" height="2250" alt="분석잘하조_중간발표_28" src="https://github.com/user-attachments/assets/0123b02a-2f60-48ec-8874-eca6500a9384" />
 
 
 TF-IDF를 통해 벡터화한 증상 데이터를 기반으로 코사인 유사도(Cosine Similarity)​를 계산하여 환자의 증상과 각 질병의 증상 패턴이 얼마나 유사한지 측정하였습니다.
 
 코사인 유사도는 벡터의 크기보다 방향을 기준으로 유사성을 계산하기 때문에, 증상의 개수가 서로 다른 데이터에서도 증상 구성의 유사도를 비교하는 데 활용할 수 있습니다.
+
+
+<img width="4000" height="2250" alt="분석잘하조_중간발표_29" src="https://github.com/user-attachments/assets/191f2f0f-23c1-4ecf-8c2e-ba066ac6b86a" />
+
 
 또한 K-Means 클러스터링을 적용하여 유사한 증상 패턴을 가진 질병을 동일한 군집으로 그룹화하였습니다. 시각화 자료에서는 데이터셋에 포함된 질병 수와 유사하게 군집 수를 90개로 설정하여, 질병별 증상 데이터가 서로 구분되는지 확인하였습니다.
 
