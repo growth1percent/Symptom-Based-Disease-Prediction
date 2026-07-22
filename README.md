@@ -1,4 +1,4 @@
-# 🏥 환자의 증상 상태 기반 질병 예측 모델
+<img width="4000" height="2250" alt="분석잘하조_중간발표_29" src="https://github.com/user-attachments/assets/dceb3830-b72e-48b1-a1e1-cfbb56ab2729" /># 🏥 환자의 증상 상태 기반 질병 예측 모델
 > 온누리마취통증의학과와 진행한 **IC-PBL 산학협력 프로젝트**에서 </br> **환자의 증상 데이터를 기반으로** 질병을 예측하기 위해 개발한 **질병 예측 모델**입니다.
 
 ---
@@ -101,6 +101,7 @@
 
 <img width="4000" height="2250" alt="분석잘하조_중간발표_28" src="https://github.com/user-attachments/assets/42bc70ac-a7ee-497a-a91c-524eb796d864" />
 
+
 증상 텍스트를 TF-IDF 방식으로 벡터화하여 질병을 구분하는 핵심 증상에 높은 가중치를 부여하였습니다.
 
 이를 통해 텍스트 데이터를 머신러닝 모델이 학습 가능한 특징 벡터로 변환하였습니다.
@@ -108,6 +109,9 @@
 </br>
 
 ### 3. K-Means 클러스터링
+
+<img width="4000" height="2250" alt="분석잘하조_중간발표_29" src="https://github.com/user-attachments/assets/f125115c-25d2-4467-af50-1fa7b8eef526" />
+
 
 TF-IDF 벡터를 기반으로 K-Means 클러스터링을 수행하여 유사한 증상을 가진 질병을 동일한 군집으로 분류하였습니다.
 
